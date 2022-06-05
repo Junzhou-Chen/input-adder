@@ -6,7 +6,7 @@ CSDN：
 因为考虑到大多是第一次使用，所以整体写的较为繁琐，有基础可自行跳转至相关位置查看代码即可
 # 配置环境和文件
 1、打开vivado
-![在这里插入图片描述](https://img-blog.csdnimg.cn/72d6993dc3104445b99ff66191b0b70f.png =x500)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/72d6993dc3104445b99ff66191b0b70f.png )
 选择“File”->“New Project”
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/9b7785a8b61c44109e87ddd0307ff622.png)
 
@@ -23,9 +23,9 @@ CSDN：
 创建完成！
 # 添加文件
 添加已有 Verilog 文件的方法如下：在“PROJECT MANAGER”下点击“Add Sources”，选择“Add or create design sources”。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/50d54948279b4d39bf4402d2f9504899.png =800x)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/50d54948279b4d39bf4402d2f9504899.png )
 可以添加已有文件，也可以自己创建文件
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d87307d57bf64521abf3fbd07dc64460.png =800x)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/d87307d57bf64521abf3fbd07dc64460.png )
 之后选择finish即可
 # 实验代码测试
 添加文件add.v和display.v文件，代码分别如下
@@ -90,7 +90,7 @@ endmodule
 ## 原理
 参考博客：[https://www.jianshu.com/p/6ce9cad8b467](https://www.jianshu.com/p/6ce9cad8b467)
 串行加法器：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/8355f67416fc46188b6acae9a48224f3.png =800x)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/8355f67416fc46188b6acae9a48224f3.png )
 并行进位加法器
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/73b228e04bab48dab3acad8e906bf9dc.png)
 
