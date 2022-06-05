@@ -101,10 +101,11 @@ endmodule
 
 
 **公式整理如下：**
-**生成（Generate）信号：$G_n=A_n \cdot B_n$
-传播（Propagate）信号：$P_n=A_n+B_n$
-$C_{n+1} = G_n+P_n\cdot C_n$
-$S_n = A_n\bigoplus B_n \bigoplus C_{n}$**
+
+**生成（Generate）信号：$G_n=A_n \cdot B_n$  
+传播（Propagate）信号：$P_n=A_n+B_n$  
+$C_{n+1} = G_n+P_n\cdot C_n$  
+$S_n = A_n\bigoplus B_n \bigoplus C_{n}$**  
 ## 代码实现
 其中注释很详细，大家参考注释来即可
 其中add4.v文件是4bit超前进位加法器实现代码，display_test.v代码是测试代码
