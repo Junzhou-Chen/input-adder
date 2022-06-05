@@ -6,28 +6,28 @@ CSDN：
 因为考虑到大多是第一次使用，所以整体写的较为繁琐，有基础可自行跳转至相关位置查看代码即可
 # 配置环境和文件
 1、打开vivado
-![在这里插入图片描述](https://img-blog.csdnimg.cn/72d6993dc3104445b99ff66191b0b70f.png )
+![在这里插入图片描述](https://img-blog.csdnimg.cn/72d6993dc3104445b99ff66191b0b70f.png )  
 选择“File”->“New Project”
-![在这里插入图片描述](https://img-blog.csdnimg.cn/9b7785a8b61c44109e87ddd0307ff622.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/9b7785a8b61c44109e87ddd0307ff622.png)  
 
-选择next
-![在这里插入图片描述](https://img-blog.csdnimg.cn/7631623603ed4bb594aed5ad53e751bb.png)
-输入工程名称和文件路径
-![在这里插入图片描述](https://img-blog.csdnimg.cn/13163e004f054b359bebab9f55e0bf98.png)
-在工程类型“Project Type”选择界面，选择“RTL Project”，勾选“Do not specify sources at this time”
-![在这里插入图片描述](https://img-blog.csdnimg.cn/af651791545e4e0a92c4743c8500b7f3.png )
-在“Default Part”FPGA 器件选择界面，指定所用的 FPGA 器件或开发板。“Parts”指 FPGA 芯片，包含了 Vivado2019.2 所支持的芯片型号；“Boards ”指的是Vivado2019.2 所支持的开发板。这里选“Parts”，然后在筛选器的“Family”中选择“Artix- 7”，在“Package”中选择“fbg676”，在筛选得到的型号里面选择“xc7a200tfbg676-2”，点击“Next”，根据向导，单击“Finish”按钮即完成整个工程的创建
-![在这里插入图片描述](https://img-blog.csdnimg.cn/622520fc4a2f4fc4a72a125f70d69278.png)
-选择finish
-![在这里插入图片描述](https://img-blog.csdnimg.cn/af90cdb861f94746a5b89de53acc000f.png)
-创建完成！
-# 添加文件
-添加已有 Verilog 文件的方法如下：在“PROJECT MANAGER”下点击“Add Sources”，选择“Add or create design sources”。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/50d54948279b4d39bf4402d2f9504899.png )
-可以添加已有文件，也可以自己创建文件
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d87307d57bf64521abf3fbd07dc64460.png )
-之后选择finish即可
-# 实验代码测试
+选择next  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/7631623603ed4bb594aed5ad53e751bb.png)  
+输入工程名称和文件路径  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/13163e004f054b359bebab9f55e0bf98.png)  
+在工程类型“Project Type”选择界面，选择“RTL Project”，勾选“Do not specify sources at this time”  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/af651791545e4e0a92c4743c8500b7f3.png )  
+在“Default Part”FPGA 器件选择界面，指定所用的 FPGA 器件或开发板。“Parts”指 FPGA 芯片，包含了 Vivado2019.2 所支持的芯片型号；“Boards ”指的是Vivado2019.2 所支持的开发板。这里选“Parts”，然后在筛选器的“Family”中选择“Artix- 7”，在“Package”中选择“fbg676”，在筛选得到的型号里面选择“xc7a200tfbg676-2”，点击“Next”，根据向导，单击“Finish”按钮即完成整个工程的创建  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/622520fc4a2f4fc4a72a125f70d69278.png)  
+选择finish  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/af90cdb861f94746a5b89de53acc000f.png)  
+创建完成！  
+# 添加文件  
+添加已有 Verilog 文件的方法如下：在“PROJECT MANAGER”下点击“Add Sources”，选择“Add or create design sources”。  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/50d54948279b4d39bf4402d2f9504899.png )  
+可以添加已有文件，也可以自己创建文件  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/d87307d57bf64521abf3fbd07dc64460.png )  
+之后选择finish即可  
+# 实验代码测试  
 添加文件add.v和display.v文件，代码分别如下
 add.v:
 ```javascript
